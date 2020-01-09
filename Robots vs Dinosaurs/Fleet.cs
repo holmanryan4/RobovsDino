@@ -9,7 +9,7 @@ namespace Robots_vs_Dinosaurs
     class Fleet
     {
         //Member variables (Has A)
-       
+
         Robot R2r = new Robot("R2r");
         Robot B2b = new Robot("B2b");
         Robot Kim = new Robot("Kim");

@@ -10,11 +10,9 @@ namespace Robots_vs_Dinosaurs
     {
         static void Main(string[] args)
         {
-            //Member variables (Has A)
-
-            //Constructor
-
-            //member methods (Can Do)
+            Battlefield battle = new Battlefield();
+            battle.RobotsvsDinosaurs();
+            
 
         }
     }
