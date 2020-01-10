@@ -34,7 +34,9 @@ namespace Robots_vs_Dinosaurs
             Weapon stick = new Weapon("stick", 10);
 
             // add those objects to the list
-
+            toolOptions.Add(sword);
+            toolOptions.Add(axe);
+            toolOptions.Add(stick);
 
             
         }
@@ -44,12 +46,12 @@ namespace Robots_vs_Dinosaurs
 
         public void SelectWeapon()
         {
-            SelectWeapon.Add 
+            
             // set 'tools' object by calling selectweapon
             tools = toolOptions[];
         }
 
-        //method for attacking dino 
+       
 
     }
 }

@@ -34,6 +34,7 @@ namespace Robots_vs_Dinosaurs
             Console.WriteLine("You and your fleet have just landed in the battlefield hit enter to attack the Dinos!");
             Console.ReadLine();
             // do another for loop to asign weapons to robos//
+            //for ()
             for (int i = 0; i < herd.dinos.Count; i++)
             {
                 Console.WriteLine("Dino " + herd.dinos[i].dinotype + " vs Robot " + fleet.robos[i].robotName);
