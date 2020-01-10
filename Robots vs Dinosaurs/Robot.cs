@@ -17,7 +17,7 @@ namespace Robots_vs_Dinosaurs
         public Robot(string name)
         {
             this.robotName = name;
-            this.health = 1000;
+            this.health = 100;
             this.powerLevel = 50;
            
         }

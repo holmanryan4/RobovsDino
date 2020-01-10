@@ -16,7 +16,7 @@ namespace Robots_vs_Dinosaurs
         Dinosaur Don = new Dinosaur("Don");
         Dinosaur Pete = new Dinosaur("Pete");
         Dinosaur Car = new Dinosaur("Car");
-        List<Dinosaur> dinos = new List<Dinosaur>();
+       public List<Dinosaur> dinos = new List<Dinosaur>();
 
 
 

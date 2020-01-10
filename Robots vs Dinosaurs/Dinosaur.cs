@@ -19,9 +19,9 @@ namespace Robots_vs_Dinosaurs
         public Dinosaur(string type)
         {
             this.dinotype = type;
-            this.dinoHealth = 1000;
+            this.dinoHealth = 100;
             this.energy = 50;
-            this.attackPower = 100;
+            this.attackPower = 50;
         }
         //member methods (Can Do)
         //method for attacking robot (robot robot)
