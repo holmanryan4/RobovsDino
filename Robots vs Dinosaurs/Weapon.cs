@@ -10,20 +10,40 @@ namespace Robots_vs_Dinosaurs
     {
         //Member variables (Has A)
         public string weapontype;
-        public int weaponAttackPower;
+        public int powerLevel;
+
+        //public Weapon sword = new Weapon("sword", 50);
+        //public Weapon axe = new Weapon("axe", 50);
+        //public Weapon stick = new Weapon("stick", 10);
+        //public List<Weapon> weapons = new List<Weapon>();
+
+
+        
+        //public int weaponAttackPower;
         //Constructor
-        public Weapon(string type)
+        public Weapon(string type, int power)
         {
             this.weapontype = type;
-           // this.weaponAttackPower = 50;
-
+            this.powerLevel = power;
         }
 
-        //not working
-        // Weapon= new Weapon("sword");
-        List<Weapon> weapons = new List<Weapon>();
+
+            //this.weaponAttackPower = power;
+        
+    
+
+    }
+
+        ////not working
+        //public  Weapon sword = new Weapon("sword", 50);
+        //public Weapon axe = new Weapon("axe", 50);
+        //public Weapon stick = new Weapon("stick", 10);
+        //public List<Weapon> weapons = new List<Weapon>();
+
+       
+
 
         //member methods (Can Do)
 
-    }
+    
 }

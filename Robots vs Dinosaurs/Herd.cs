@@ -9,16 +9,11 @@ namespace Robots_vs_Dinosaurs
     class Herd
     {
         //Member variables (Has A)
-        //List<string> dinos = new List<string> { "Pete", "Don", "Car" };
-
-        //foreach(string )
 
         Dinosaur Don = new Dinosaur("Don");
         Dinosaur Pete = new Dinosaur("Pete");
         Dinosaur Car = new Dinosaur("Car");
        public List<Dinosaur> dinos = new List<Dinosaur>();
-
-
 
         //Constructor
         public Herd()
