@@ -31,7 +31,7 @@ namespace Robots_vs_Dinosaurs
             Console.ReadLine();
             Console.WriteLine("Good Luck and take no prisoners!");
             Console.ReadLine();
-            Console.WriteLine("You and your fleet have just landed in the battlefield hit enter to attack the Dinos!");
+            Console.WriteLine("You and your fleet have just landed in the battlefield... Hit enter to attack the Dinos!");
             Console.ReadLine();
             // do another for loop to asign weapons to robos//
             //for ()
@@ -47,8 +47,9 @@ namespace Robots_vs_Dinosaurs
                 Console.ReadLine();
                 Console.WriteLine("Robot " + fleet.robos[i].robotName + " vs Dino " + herd.dinos[i].dinotype);
                 Console.ReadLine();
-                Console.WriteLine(fleet.robos[i].robotName + " is now attacking dino  " + herd.dinos[i].dinotype + " with " + fleet.robos[i].tools.weapontype);
+                Console.WriteLine(fleet.robos[i].robotName + " is now attacking dino  " + herd.dinos[i].dinotype + " with sword ");
                
+
                 herd.dinos[i].dinoHealth = herd.dinos[i].dinoHealth - fleet.robos[i].weaponAttackPower;
                 Console.ReadLine();
                 Console.WriteLine("Successful hit! " + herd.dinos[i].dinotype + "'s health is now " + herd.dinos[i].dinoHealth);

@@ -48,7 +48,7 @@ namespace Robots_vs_Dinosaurs
         {
             
             // set 'tools' object by calling selectweapon
-            tools = toolOptions[];
+           // tools = toolOptions[];
         }
 
        
